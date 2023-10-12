@@ -53,11 +53,11 @@
         </nav>
    </header>
    <!-- Three things as of now -> 
-        directives(v-if, v-show), 
+        directives(v-if, v-show, v-model), 
         handlers(@click), 
         props(:modalActive),
         macro(defineProps, defineEmits) 
-        event listeners(@close-modal)
+        event listeners(@close-modal, @input)
     -->
 
 </template>
