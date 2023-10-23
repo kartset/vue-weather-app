@@ -1,6 +1,6 @@
 <template>
     
-    <div v-for="(city, index) in savedCities" :key="index" >
+    <div v-for="(city) in savedCities" :key="city.id" >
         <CityCard :city="city" @click="goToCityView(city)" />
     </div>
 
