@@ -45,7 +45,7 @@ const goToCityView = (city:any) => {
     router.push({
         name:'cityView',
         params: {state:city.state, city:city.city},
-        query: {lat:city.coords.lat, lng:city.coords.lng}
+        query: {id:city.id, lat:city.coords.lat, lng:city.coords.lng}
     })
 }
 
